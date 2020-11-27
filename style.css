@@ -64,7 +64,7 @@ section .section-inner h2{
 
 
 .page-header-image {
-    background-image: url("./img/cover.JPG");
+    background-image: url("./img/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
