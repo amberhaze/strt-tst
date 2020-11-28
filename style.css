@@ -84,6 +84,9 @@ background-size: cover;
 .chapter-2 {
     background-image: url('./img/header_2.jpg');
 }
+.chapter-3 {
+    background-image: url('./img/header_3.jpg');
+}
 
 section .section-inner{
     height: 100%;
