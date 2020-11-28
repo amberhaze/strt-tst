@@ -33,6 +33,7 @@ strong {
     font-size: 1.7rem;
     line-height: 1.5;
     color: #747474;
+    margin-bottom: 0;
 }
 
 hr.line-quote {
@@ -58,16 +59,24 @@ hr.line-quote {
 .row {
     margin-top: 3rem;
 }
+.end-of-chapter {
+    margin-bottom: 5rem;
+}
 
 .header-background{
 height: 150px;
 margin-top: 2rem;
-background: url('./img/header_1.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+}
 
+.chapter-1 {
+    background-image: url('./img/header_1.jpg');
+}
+.chapter-2 {
+    background-image: url('./img/header_2.jpg');
 }
 
 section .section-inner{
