@@ -7,13 +7,13 @@ body {
 }
 
 p {
-    font-size: 1.4rem;
-    line-height: 1.61;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .text-lead {
     font-family: 'Lora', serif;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
@@ -30,8 +30,8 @@ strong {
 
 .text-quote {
     font-family: 'Lora', serif;
-    font-size: 1.7rem;
-    line-height: 1.5;
+    font-size: 1.6em;
+    line-height: 1.4;
     color: #747474;
     margin-bottom: 0;
 }
@@ -54,6 +54,12 @@ hr.line-quote {
     background-color: black;
     max-width: max-content;
     font-weight: 700;
+}
+
+.content-ill-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .row {
