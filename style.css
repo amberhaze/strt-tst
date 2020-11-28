@@ -3,16 +3,19 @@
 
 body {
     font-family: 'Lora', serif;
-    font-size: 1rem;
-    line-height: 1rem;
     text-align: left;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.61;
 }
 
 .text-lead {
     font-family: 'Lora', serif;
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: center;
 }
 strong {
@@ -21,11 +24,19 @@ strong {
 }
 
 .block-quote {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text-quote {
     font-family: 'Lora', serif;
     font-size: 1.7rem;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #747474;
-    margin-top: 2rem;
+}
+
+hr.line-quote {
+    max-width: 3rem;
 }
 
 .chapter-header {
@@ -33,17 +44,25 @@ strong {
     font-size: 1.3rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
-    color: #96835f;
-
+    color: #af996f;
     animation-name: fadeIn;
     animation-duration: 1s;
 }
 
-.peopleInfo{
+.chapter-header h2 {
+    background-color: black;
+    max-width: max-content;
+    font-weight: 700;
+}
+
+.row {
+    margin-top: 3rem;
+}
+
+.header-background{
 height: 150px;
 margin-top: 2rem;
-margin-left: 5rem;
-background: url('./img/header2.jpg');
+background: url('./img/header_1.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
