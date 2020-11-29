@@ -47,6 +47,7 @@ hr.line-quote {
     margin-top: 5rem;
     margin-bottom: 1rem;
     color: #af996f;
+    position: relative;
 }
 
 .chapter-header h2 {
@@ -71,7 +72,7 @@ hr.line-quote {
 }
 
 .header-background{
-height: 400px;
+height: 500px;
 margin-top: 2rem;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -99,14 +100,41 @@ background-size: cover;
 .chapter-4 {
     background-image: url('./img/header_4.jpg');
 }
+
+@media screen and (min-width: 1000px) {
+    .block-quote {
+      display: none;
+    }
+    .quote-background {
+        display: block;
+    }
+    .quote-background-small {
+        display: none;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .quote-background {
+        display: none;
+    }
+    .quote-background-small {
+        display: block;
+    }
+}
 .quote-background {
     width: 100%;
-    min-width: 1900px;
     background-position: center;
     position: absolute;
     left: 0;
+    bottom: 0;
 }
+.quote-background-small {
 
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
 
 section .section-inner{
