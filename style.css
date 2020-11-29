@@ -81,13 +81,11 @@ background-size: cover;
 
 .p-header {
     background-image: url('./img/cover.jpg');
-    height: 700px;
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100%;
+    background-size: contain;
     background-position: top;
-
-
 }
 .chapter-1 {
     background-image: url('./img/header_1.jpg');
@@ -118,12 +116,6 @@ section .section-inner{
     flex-direction: column;
 }
 
-.page-header-image {
-    background-image: url("./img/cover.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .content-center {
     display: flex;
     align-items: center;
@@ -137,4 +129,8 @@ section .section-inner{
 
 .carousel, .carousel-inner {
     box-shadow: none !important;
+}
+
+.full-width {
+    min-width: 100%;
 }
