@@ -25,15 +25,15 @@ strong {
 }
 
 .block-quote {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 .text-quote {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
     line-height: 1.4;
-    color: #747474;
+    color: black;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
@@ -71,7 +71,7 @@ hr.line-quote {
 }
 
 .header-background{
-height: 300px;
+height: 400px;
 margin-top: 2rem;
 background-repeat: no-repeat;
 background-attachment: fixed;
