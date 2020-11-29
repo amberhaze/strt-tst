@@ -16,6 +16,7 @@ p {
     line-height: 1.5;
     text-align: center;
 }
+
 strong {
     font-weight: 600;
     font-style: italic;
@@ -76,6 +77,16 @@ background-position: center;
 background-size: cover;
 }
 
+.p-header {
+    background-image: url('./img/cover.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: top;
+
+
+}
 .chapter-1 {
     background-image: url('./img/header_1.jpg');
 }
@@ -88,6 +99,13 @@ background-size: cover;
 .chapter-4 {
     background-image: url('./img/header_3.jpg');
 }
+.quote-background {
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
 
 section .section-inner{
     height: 100%;
