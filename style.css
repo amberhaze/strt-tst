@@ -101,8 +101,10 @@ background-size: cover;
 }
 .quote-background {
     width: 100%;
+    min-width: 1900px;
+    background-position: center;
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 
