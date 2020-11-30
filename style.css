@@ -86,8 +86,16 @@ background-size: cover;
 }
 
 .p-header {
-    background-image: url('./img/cover.jpg');
     width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: top;
+}
+.p-header-small {
+    width: 100%;
+    display: none;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: contain;
@@ -117,6 +125,12 @@ background-size: cover;
     .quote-background-small {
         display: none;
     }
+    .p-header-small {
+        display: none;
+    }
+    .p-header {
+        display: flex;
+    }
 }
 @media (max-width: 960px) {
     .quote-background {
@@ -124,6 +138,12 @@ background-size: cover;
     }
     .quote-background-small {
         display: block;
+    }
+    .p-header-small {
+        display: flex;
+    }
+    .p-header {
+        display: none;
     }
 }
 @media (max-width: 720px) {
