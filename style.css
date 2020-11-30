@@ -119,13 +119,10 @@ background-size: cover;
     .quote-background-small {
         display: block;
     }
-    .header-background {
-        height: 300px;
-    }
 }
 @media (max-width: 720px) {
     .header-background {
-        height: 200px;
+        height: 300px;
     }
 }
 
