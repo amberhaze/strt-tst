@@ -53,9 +53,14 @@ div.chapter-container {
 .chapter-header h2 {
     font-family: 'Raleway', sans-serif;
     background-color: black;
+    font-weight: 600;
     max-width: max-content;
     margin-right: auto;
     margin-left: auto;
+}
+
+.chapter-container .col-12, .chapter-container .col-sm-6 {
+    max-width: fit-content;
 }
 
 .content-ill-left {
@@ -100,6 +105,7 @@ background-size: cover;
 .chapter-4 {
     background-image: url('./img/header_4.jpg');
 }
+
 
 @media (min-width: 960px) {
     .block-quote {
