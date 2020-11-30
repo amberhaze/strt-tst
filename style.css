@@ -2,13 +2,12 @@
 body {
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    animation: none;
+
 }
 
 p {
     font-size: 18px;
     line-height: 1.5;
-    animation: none;
 }
 
 .text-lead {
@@ -30,11 +29,16 @@ strong {
 
 .text-quote {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     line-height: 1.4;
     color: black;
     font-weight: 600;
     margin-bottom: 0;
+}
+
+div.chapter-container {
+    padding-bottom: 3rem; 
+    position:relative;
 }
 
 .chapter-header {
@@ -97,7 +101,7 @@ background-size: cover;
     background-image: url('./img/header_4.jpg');
 }
 
-@media screen and (min-width: 960px) {
+@media (min-width: 960px) {
     .block-quote {
       display: none;
     }
@@ -107,15 +111,24 @@ background-size: cover;
     .quote-background-small {
         display: none;
     }
-  }
-  @media screen and (max-width: 960px) {
+}
+@media (max-width: 960px) {
     .quote-background {
         display: none;
     }
     .quote-background-small {
         display: block;
     }
+    .header-background {
+        height: 300px;
+    }
 }
+@media (max-width: 720px) {
+    .header-background {
+        height: 200px;
+    }
+}
+
 .quote-background {
     width: 100%;
     background-position: center;
