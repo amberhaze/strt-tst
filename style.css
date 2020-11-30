@@ -197,3 +197,22 @@ section .section-inner{
     max-width: 100%;
     height: auto;
 }
+
+.final-bckgr {
+    background-image: url("./img/final.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+    margin-bottom: 5rem;
+    
+}
+
+.f-text-quote {
+    color: white;
+    margin-bottom: 0rem;
+}
+
+.f-block-quote {
+    padding-top: 5rem;
+}
