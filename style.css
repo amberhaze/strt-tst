@@ -149,10 +149,16 @@ background-size: cover;
         display: none;
     }
     .final-bckgr {
-        height: 500px !important;
+        display: none;
+    }
+    .final-bckgr-sm {
+        display: block;
     }
     .f-block-quote {
         padding-top: 1rem !important;
+    }
+    .f-text-quote {
+        font-size: 1rem;
     }
 }
 @media (max-width: 720px) {
@@ -211,13 +217,19 @@ section .section-inner{
 }
 
 .final-bckgr {
-    background-image: url("./img/final.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    left: 0;
     display: block;
-    height: 700px;
-    
+}
+.final-bckgr-sm {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    left: 0;
+    display: none;
 }
 
 .f-text-quote {
@@ -227,11 +239,16 @@ section .section-inner{
 }
 
 .f-block-quote {
-    padding-top: 5rem;
+    padding-top: 2rem;
+    position: absolute;
 }
 
 .media-note {
     font-size: 0.8rem;
     font-style: italic;
     margin-top: 0.5rem;
+}
+
+.final-chapter-container {
+    position: relative;
 }
