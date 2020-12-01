@@ -2,14 +2,11 @@
 body {
     font-family: 'Raleway', sans-serif;
     text-align: left;
-
 }
-
 p {
     font-size: 18px;
     line-height: 1.5;
 }
-
 .text-lead {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4em;
@@ -17,16 +14,13 @@ p {
     line-height: 1.5;
     text-align: center;
 }
-
 strong {
     font-weight: 600;
     font-style: italic;
 }
-
 .block-quote {
     margin-bottom: 2rem;
 }
-
 .text-quote {
     font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
@@ -35,12 +29,10 @@ strong {
     font-weight: 600;
     margin-bottom: 0;
 }
-
 div.chapter-container {
     padding-bottom: 3rem; 
     position:relative;
 }
-
 .chapter-header {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
@@ -49,7 +41,6 @@ div.chapter-container {
     color: #af996f;
     position: relative;
 }
-
 .chapter-header h2 {
     font-family: 'Raleway', sans-serif;
     background-color: black;
@@ -58,33 +49,28 @@ div.chapter-container {
     margin-right: auto;
     margin-left: auto;
 }
-
 .chapter-container .col-12, .chapter-container .col-sm-6 {
     max-width: fit-content;
 }
-
 .content-ill-left {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 .row {
     margin-top: 3rem;
 }
 .end-of-chapter {
     margin-bottom: 5rem;
 }
-
 .header-background{
-height: 500px;
-margin-top: 2rem;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
+    height: 500px;
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
-
 .p-header {
     width: 100%;
     display: flex;
@@ -116,8 +102,6 @@ background-size: cover;
 #Chapter4Container {
     padding-bottom: 15rem;
 }
-
-
 @media (min-width: 960px) {
     .block-quote {
       display: none;
@@ -169,7 +153,6 @@ background-size: cover;
         padding-bottom: 10rem;
     }
 }
-
 .quote-background {
     width: 100%;
     background-position: center;
@@ -185,8 +168,6 @@ background-size: cover;
     left: 0;
     bottom: 0;
 }
-
-
 section .section-inner{
     height: 100%;
     width: 100%;
@@ -195,27 +176,22 @@ section .section-inner{
     align-items: center;
     flex-direction: column;
 }
-
 .content-center {
     display: flex;
     align-items: center;
     justify-content: center ;
 }
-
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
-
 .carousel, .carousel-inner {
     box-shadow: none !important;
 }
-
 .full-width {
     max-width: 100%;
     height: auto;
 }
-
 .final-bckgr {
     width: 100%;
     background-position: center;
@@ -231,24 +207,20 @@ section .section-inner{
     left: 0;
     display: none;
 }
-
 .f-text-quote {
     color: white;
     font-weight: 600;
     margin-bottom: 0rem;
 }
-
 .f-block-quote {
     padding-top: 2rem;
     position: absolute;
 }
-
 .media-note {
     font-size: 0.8rem;
     font-style: italic;
     margin-top: 0.5rem;
 }
-
 .final-chapter-container {
     position: relative;
 }
