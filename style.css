@@ -210,9 +210,16 @@ section .section-inner{
 
 .f-text-quote {
     color: white;
+    font-weight: 600;
     margin-bottom: 0rem;
 }
 
 .f-block-quote {
     padding-top: 5rem;
+}
+
+.media-note {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 0.5rem;
 }
