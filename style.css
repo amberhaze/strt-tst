@@ -152,8 +152,11 @@ div.chapter-container {
     #Chapter4Container {
         padding-bottom: 10rem;
     }
-    .chapter-2 {
-        background-image: url("./img/header_2_sm.jpg");
+    .f-block-quote {
+        position: relative !important;
+    }
+    .f-text-quote {
+        color: black !important;
     }
 }
 .quote-background {
@@ -211,14 +214,16 @@ section .section-inner{
     display: none;
 }
 .f-text-quote {
-    color: white;
     font-weight: 600;
+    color: white;
     margin-bottom: 0rem;
 }
 .f-block-quote {
     padding-top: 2rem;
     position: absolute;
+    display: block;
 }
+
 .media-note {
     font-size: 0.8rem;
     font-style: italic;
