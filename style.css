@@ -152,6 +152,9 @@ div.chapter-container {
     #Chapter4Container {
         padding-bottom: 10rem;
     }
+    .chapter-2 {
+        background-image: url("./img/header_2_sm.jpg");
+    }
 }
 .quote-background {
     width: 100%;
