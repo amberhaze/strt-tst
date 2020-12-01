@@ -24,7 +24,7 @@ strong {
 }
 
 .block-quote {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .text-quote {
@@ -113,6 +113,9 @@ background-size: cover;
 .chapter-4 {
     background-image: url('./img/header_4.jpg');
 }
+#Chapter4Container {
+    padding-bottom: 15rem;
+}
 
 
 @media (min-width: 960px) {
@@ -145,10 +148,19 @@ background-size: cover;
     .p-header {
         display: none;
     }
+    .final-bckgr {
+        height: 500px !important;
+    }
+    .f-block-quote {
+        padding-top: 1rem !important;
+    }
 }
 @media (max-width: 720px) {
     .header-background {
         height: 300px;
+    }
+    #Chapter4Container {
+        padding-bottom: 10rem;
     }
 }
 
@@ -203,8 +215,8 @@ section .section-inner{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    display: block;
     height: 700px;
-    margin-bottom: 5rem;
     
 }
 
